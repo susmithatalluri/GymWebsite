@@ -1,0 +1,51 @@
+body{
+font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.home-bg {
+    background: url('index.jpg') ;
+    background-size: cover;
+}
+
+.about-bg {
+    background: url('about.jpg') ;
+    background-size: cover;
+}
+.classes-bg {
+    background: url('classes.jpg') ;
+    background-size: cover;
+}
+.contact-bg {
+    background: url('contact.jpg') ;
+    background-size: cover;
+}
+.nav li {
+    display:inline-block;
+    font-size: 25px;     
+}
+.nav li a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(187, 243, 247);
+    text-decoration: none ;
+    padding:34px 23px;
+}
+.nav li a:hover, .nav li a.active{
+    text-decoration: underline;
+    color:slategray;
+}
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(0, 123, 255, 0.8);
+    color: white;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
